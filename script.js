@@ -2,7 +2,7 @@
 async function getQuote(quoteText, authorText, quoteContainer, loader) {
    showLoadingSpinner(quoteContainer, loader);
    // proxyUrl to bypass CORS
-   const proxyUrl = 'https://arcane-cove-17034.herokuapp.com/';
+   const proxyUrl = 'https://cors-anywhere-initialsky.herokuapp.com/';
    const apiUrl = "http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json";
 
    try {
